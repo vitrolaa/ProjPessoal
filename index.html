@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/js/">
+
+    <title>Formula 1</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+
+            <i class="fa-solid fa-caret-right"> Formula one__</i>
+
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#corridas">Ultimas Corridas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resultados">Resultados Finais</a>
+                </li>
+            </ul>
+
+
+
+            <button id="mobile_btn">
+
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#corridas">Ultimas Corridas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resultados">Resultados Finais</a>
+                </li>
+            </ul>
+
+
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div id="cta">
+                <h1 class="title"> A informação vai ate <span>você</span></h1>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ipsa quasi odit quam incidunt amet
+                    aspernatur corrupti iste sint, laboriosam praesentium ratione pariatur beatae ab et eligendi saepe!
+                    Obcaecati, quod?
+                </p>
+
+                <a href="tel: +55555555555" id="phone_button">
+                    <button class="btn-defalut">
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                    (51) 92342-3243
+                </a>
+
+            </div>
+
+
+            <div id="banner">
+                <img src="/src/img/f1Princ.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Piloto</h2>
+            <h3 class="section-subtitle">Os Favoritos da temporada</h3>
+            <div id="pilotos">
+                <div class="pilotoscar">
+
+                    <img src="src/img/max-verstappen-2024.png" class="piloto-image" alt="">
+
+                    <h3 class="piloto-nome">
+                        Max Verstappen
+                    </h3>
+
+                    <span class="piloto-descrição">
+                        Nascido na holanda e correndo pela Red Bull, alcançou 395,5 pontos
+                    </span>
+
+                    <div class="piloto-estrela">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>10 vitorias</span>
+                    </div>
+                </div>
+                <div class="pilotoscar">
+                    <img src="src/img/Hamilton23.png" width="450px" height="420px" class="piloto-image" alt="">
+
+                    <h3 class="piloto-nome">
+                        Lewis Hamilton
+                    </h3>
+
+                    <span class="piloto-descrição">
+                        Nascido na Inglaterra e correndo pela Mercedes, alcançou 387,5 pontos
+                    </span>
+
+                    <div class="piloto-estrela">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                        <span>8 vitorias</span>
+                    </div>
+                </div>
+                <div class="pilotoscar">
+                    <img src="src/img/valteri bottas.png" class="piloto-image" alt="">
+
+                    <h3 class="piloto-nome">
+                        Valtteri Bottas
+                    </h3>
+
+                    <span class="piloto-descrição">
+                        Nascido na Finlandia e correndo pela Mercedes, alcançou 226 pontos
+                    </span>
+
+                    <div class="piloto-estrela">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+
+                        <span>1 vitorias</span>
+                    </div>
+                </div>
+                <div class="pilotoscar">
+                    <img src="src/img/Perez.png" class="piloto-image" alt="">
+
+                    <h3 class="piloto-nome">
+                        Sergio Perez
+                    </h3>
+
+                    <span class="piloto-descrição">
+                        Nascido no mexico e correndo pela Red Bull, alcançou 190 pontos
+                    </span>
+
+                    <div class="piloto-estrela">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+
+                        <span>2 vitorias</span>
+                    </div>
+                </div>
+
+        </section>
+
+
+        <section id="resultados">
+            <img src="src/img/senna.png" id="resultadosenna" alt="">
+
+
+            <div id="resultado_content">
+                <h2 class="section-title">
+                    Resultados
+                </h2>
+                <h3 class="section-subtitle">
+                    Resultados sobre as corridas mais impactantes
+                </h3>
+
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/img/perezvencendo.png" class="feedback-avatar" alt="">
+
+
+                        <div class="result-content">
+                            <p>
+                                Gp de airzebaijão
+                                <span>
+
+                                </span>
+                            </p>
+                            <p>
+                                "um dos momentos que marcaram o inicio da temporada foi a vitoria do
+                                mexicano sergio peres no azerbaijao. o piloto da red bull venceu em dia de
+                                frustações para Verstappen e Hamilton"
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="feedback">
+                        <img src="src/img/hamiltonganhando.png" class="feedback-avatar" alt="">
+
+
+                        <div class="feedback-content">
+                            <p>
+                                Gp de São Paulo
+                                <span>
+
+                                </span>
+                            </p>
+                            <p>
+                                "hamilton venceu a corrida em interlagos em um fim de semana incrivel. Foram
+                                24 ultrapasagens(15 na sprint e outras nove na prova) para ficar com a
+                                vitoria"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+
+        </div>
+        </section>
+    </main>
+
+
+</body>
+
+</html>
